@@ -1,118 +1,152 @@
-:root{
-    --bs-blue: #0d6efd;
-      --bs-sky: #e2fefe;
-      --bs-sky: #2aeded;
-      --bs-purple: #041470;
-      --bs-purple: #041470;
-      --bs-pink: #06effb;
-      --bs-red: #dc3545;
-      --bs-orange: #fff9ed;
-      --bs-blue: #25d6e3;
-      --bs-yellow: #FFA984;
-      --bs-yellow: #FFA984;
-      
-  }
-  .bg-sky{
-    background: var(--bs-sky);
-  }
-  .bg-purple{
-    background: var(--bs-purple);
-  }
-  .bg-orange{
-    background: var(--bs-orange);
-  }
-  .bg-yellow{
-    background: var(--bs-yellow);
-  }
-  .text-yellow{
-    color: var(--bs-yellow);
-  
-  }
-  .text-purple{
-    color: var(--bs-purple);
-  
-  }
-  .text-blue{
-    color: var(--bs-blue);
-  }
-  .text-pink{
-    color: var(--bs-pink);
-  }
-.containt{
-    margin-top: 80px;
+:root {
+  --bs-blue: #0d6efd;
+  --bs-sky: #e2fefe;
+  --bs-sky: #2aeded;
+  --bs-purple: #041470;
+  --bs-purple: #041470;
+  --bs-pink: #06effb;
+  --bs-red: #dc3545;
+  --bs-orange: #fff9ed;
+  --bs-blue: #25d6e3;
+  --bs-yellow: #FFA984;
+  --bs-yellow: #FFA984;
+
 }
 
-.homeform{
-    margin-top: 10%;
-    height: 1px;
+.bg-sky {
+  background: var(--bs-sky);
 }
-.homehad{
-    margin-top: 50%;
+
+.bg-purple {
+  background: var(--bs-purple);
 }
+
+.bg-orange {
+  background: var(--bs-orange);
+}
+
+.bg-yellow {
+  background: var(--bs-yellow);
+}
+
+.text-yellow {
+  color: var(--bs-yellow);
+
+}
+
+.text-purple {
+  color: var(--bs-purple);
+
+}
+
+.text-blue {
+  color: var(--bs-blue);
+}
+
+.text-pink {
+  color: var(--bs-pink);
+}
+
+.containt {
+  margin-top: 80px;
+}
+
+.homeform {
+  margin-top: 10%;
+  height: 1px;
+}
+
+.homehad {
+  margin-top: 50%;
+}
+
 .texthero {
-    color: red;
+  color: red;
 }
-.cliniche{
-  padding-top: 41px;
-}
-.clinicpara{
+
+.cliniche {
   padding-top: 41px;
 }
 
-.servicess{
-    margin-top: 10%;
+.clinicpara {
+  padding-top: 41px;
 }
-.Consultation{
+
+.servicess {
+  margin-top: 10%;
+}
+
+.Consultation {
   margin-top: 150px;
 }
-.Consultationbtn{
+
+.Consultationbtn {
   background-color: #FFA984;
 }
-.Consultationbtn:hover{
+
+.Consultationbtn:hover {
   background-color: #041470;
   color: white;
 }
-.fotter{
+
+.fotter {
   margin-top: 10%;
 }
-.fotter .ic:hover{
+
+.fotter .ic:hover {
   color: #06effb;
 }
+
 @media only screen and (max-width:320px) {
-  .sonu{
+  .sonu {
     height: 123%;
     width: 306px;
   }
-  .homehad{
+
+  .homehad {
     margin-top: 11%;
-   }
+  }
+
   .homeform {
     margin-top: -269px;
   }
-  .clinic{
+
+  .clinic {
     margin-top: 151%;
-    }
+  }
 }
-@media only screen and (max-width:375px)
-{
-  .sonu
-  {
-   
+
+@media only screen and (min-width:375px) {
+  .sonu {
+
     height: 123%;
     width: 306px;
   }
+
   .homeform {
-    margin-top: -300px;
+    margin-top: -129px;
   }
-  .clinic{
-    margin-top: 167%;
-    }
+
+  .clinic {
+    margin-top: 135%;
+  }
 }
-@media only screen and (min-width:768px){
-  .cliniche{
+
+@media only screen and (min-width:768px) {
+  .cliniche {
     margin-top: 10px;
-    }
-    .clinicpara{
-      margin-top: 73px;
-    }
+  }
+  .homeform {
+    margin-top: 70px;
+  }
+  .sonu
+  {
+    height: 100%;
+  }
+  .clinicpara {
+    margin-top: 73px;
+  }
+  .clinic {
+    margin-top: 28%;
+}
 }
