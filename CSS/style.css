@@ -132,21 +132,30 @@
   }
 }
 
+@media only screen and (min-width:375px) {
+  .clinic {
+    margin-top: 115%;
+  }
+}
+
 @media only screen and (min-width:768px) {
   .cliniche {
     margin-top: 10px;
   }
+
   .homeform {
     margin-top: 70px;
   }
-  .sonu
-  {
+
+  .sonu {
     height: 100%;
   }
+
   .clinicpara {
     margin-top: 73px;
   }
+
   .clinic {
     margin-top: 28%;
-}
+  }
 }
