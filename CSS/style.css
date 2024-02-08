@@ -93,6 +93,21 @@
     margin-top: 151%;
     }
 }
+@media only screen and (min-width:375px)
+{
+  .sonu
+  {
+    border: 2px solid green;
+    height: 123%;
+    width: 306px;
+  }
+  .homeform {
+    margin-top: -300px;
+  }
+  .clinic{
+    margin-top: 167%;
+    }
+}
 @media only screen and (min-width:768px){
   .cliniche{
     margin-top: 10px;
