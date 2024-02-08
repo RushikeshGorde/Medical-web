@@ -97,7 +97,7 @@
   color: #06effb;
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (min-width:320px) {
   .sonu {
     height: 123%;
     width: 306px;
@@ -131,30 +131,49 @@
     margin-top: 135%;
   }
 }
+
 @media only screen and (min-width:360px) {
   .clinic {
     margin-top: 94%;
-}
-  .sonu{
+  }
+
+  .sonu {
     width: 100%;
   }
-  .homeform{
+
+  .homeform {
     margin-top: -80%;
   }
 }
+
 @media only screen and (min-width:375px) {
   .clinic {
     margin-top: 136%;
   }
+
+  .sonu {
+    height: 100%;
+  }
+
+  .clinic {
+    margin-top: 0%;
+  }
 }
+
 @media only screen and (min-width:425px) {
   .clinic {
     margin-top: 116%;
   }
 }
+
 @media only screen and (min-width:412px) {
   .clinic {
     margin-top: 76%;
+  }
+}
+@media only screen and (min-width:576px) {
+  .homeform{
+    margin-top: 0%;
   }
 }
 
