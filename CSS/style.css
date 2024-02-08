@@ -93,11 +93,11 @@
     margin-top: 151%;
     }
 }
-@media only screen and (min-width:375px)
+@media only screen and (max-width:375px)
 {
   .sonu
   {
-    border: 2px solid green;
+   
     height: 123%;
     width: 306px;
   }
