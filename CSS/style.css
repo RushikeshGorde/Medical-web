@@ -134,7 +134,12 @@
 
 @media only screen and (min-width:375px) {
   .clinic {
-    margin-top: 115%;
+    margin-top: 136%;
+  }
+}
+@media only screen and (min-width:425px) {
+  .clinic {
+    margin-top: 116%;
   }
 }
 
