@@ -131,7 +131,17 @@
     margin-top: 135%;
   }
 }
-
+@media only screen and (min-width:360px) {
+  .clinic {
+    margin-top: 94%;
+}
+  .sonu{
+    width: 100%;
+  }
+  .homeform{
+    margin-top: -80%;
+  }
+}
 @media only screen and (min-width:375px) {
   .clinic {
     margin-top: 136%;
@@ -140,6 +150,11 @@
 @media only screen and (min-width:425px) {
   .clinic {
     margin-top: 116%;
+  }
+}
+@media only screen and (min-width:412px) {
+  .clinic {
+    margin-top: 76%;
   }
 }
 
